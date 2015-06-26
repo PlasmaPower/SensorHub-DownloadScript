@@ -4,5 +4,5 @@ DIAGRAM_LOCATION="https://docs.google.com/uc?authuser=0&id=0BwHVIM-U1GJMZW5tV09I
 mkdir "$HOME/Desktop/SensorHub"
 cd "$HOME/Desktop/SensorHub"
 
-wget "$CODE_LOCATION" -O 'SensorHub.ino'
-wget "$DIAGRAM_LOCATION" -O 'Diagram.png'
+curl -L "$CODE_LOCATION" -o 'SensorHub.ino'
+curl -L "$DIAGRAM_LOCATION" -o 'Diagram.png'
